@@ -22,6 +22,7 @@ def check_task(res, ref):
         return '00'
 
 
+# Порядок значений: H(AB), H(A), H(B), Ha(B), Ia,b
 reference = [4.34, 3.27, 4.04, 1.06, 2.98]
 result = exec_task(task())
 print(check_task(result, reference))
